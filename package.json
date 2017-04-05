@@ -2,7 +2,7 @@
   "name": "graph",
   "version": "1.0.0",
   "description": "",
-  "main": "Index.js",
+  "main": "server.js",
   "dependencies": {
     "firebase": "^3.7.4"
   },
