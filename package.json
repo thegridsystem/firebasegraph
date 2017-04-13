@@ -1,17 +1,21 @@
 {
-  "name": "graph",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "firebase": "^3.7.4"
+  "name": "firebase-graph",
+  "version": "0.2.5",
+  "description": "Firebase graph",
+  "engines": {
+    "node": "5.9.1"
   },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "firebase": "^3.7.4",
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
-
